@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EntryPoint!</string>
+    <string name="app_name">Cryptoid</string>
+
+	<string name="base64">Base64</string>
+	<string name="base64_class">MainBase64</string>
+	
+	<string name="morse">Morse</string>
+	<string name="morse_class">MainMorse</string>
+	
+	<string name="caesar">Caesar</string>
+	<string name="caesar_class">MainCaesar</string>
+	
+	<string name="vigenere">Vigenere</string>
+	<string name="vigenere_class">MainVigenere</string>
+	
+	<string name="ascii">ASCII</string>
+	<string name="ascii_class">MainAscii</string>
+	
+	<string name="nihilist">Nihilist</string>
+	<string name="nihilist_class">MainNihilist</string>
+	
+	<string name="polybius">Polybius</string>
+	<string name="polybius_class">MainPolybius</string>
+    
+    <string name="cryptanalysis_about_title">About Cryptanalysis</string>
+    <string name="cryptanalysis_about_text">
+    Cryptanalysis is the art of analyse a ciphered message to decrypt it.\n
+    It is various algorithms to detect which algorithm has been used.\n
+    The cryptanalysis used in this application is pretty basic, and is based on the usage of the \'e\' in the English language\n
+    Implemented algorithms try to find \'e\' in the shorts words of the english like \'the\' and others wide used words</string>
+    
+    <string name="maincaesar_about_title">About Caesar cipher</string>
+    <string name="maincaesar_about_text">
+    Caesar cipher, also known as a Caesar\'s cipher, the shift cipher, Caesar\'s code or Caesar shift, is one of the simplest and most widely known encryption techniques.\n
+     It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
+     </string>
+     
+    <string name="mainbase64_about_title">About Base64</string>
+    <string name="mainbase64_about_text">
+    Base64 is a group of similar encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation. The Base64 term originates from a specific MIME content transfer encoding.
+     </string>    
+    
+    <string name="mainmorse_about_title">About Morse Code</string>
+    <string name="mainmorse_about_text">
+	Morse code is a method of transmitting textual information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment. The International Morse Code encodes the Roman alphabet, the Arabic numerals and a small set of punctuation and procedural signals as standardized sequences of short and long \'dots\' and \'dashes\'.
+     </string>
+     
+    <string name="mainpolybius_about_title">About Polybius</string>
+    <string name="mainpolybius_about_text">
+	This was known as the "Polybius square", where the letters of the alphabet were arranged left to right, top to bottom in a 5 x 5 square, (when used with the modern 26 letter alphabet, the letters \'I\' and \'J\' are combined). Five numbers were then aligned on the outside top of the square, and five numbers on the left side of the square vertically. Usually these numbers were arranged 1 through 5. By cross-referencing the two numbers along the grid of the square, a letter could be deduced.
+    </string>
+    
+    <string name="mainascii_about_title">About AsciiPolybius</string>
+    <string name="mainascii_about_text">
+	The American Standard Code for Information Interchange  is a character-encoding scheme based on the ordering of the English alphabet. ASCII codes represent text in computers, communications equipment, and other devices that use text. Most modern character-encoding schemes are based on ASCII, though they support many more characters than did ASCII.
+    </string>
+</resources>

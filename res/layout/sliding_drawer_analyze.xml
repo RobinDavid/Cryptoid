@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SlidingDrawer
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:id="@+id/SlidingDrawer"
+		android:handle="@+id/slideHandleButton"
+		android:content="@+id/contentLayout"
+		android:padding="10dip"
+		android:layout_height="148dip"
+		android:layout_gravity="bottom"
+		>
+		
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/slideHandleButton"
+			android:background="@drawable/closearrow"
+		></Button>
+
+
+
+
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:id="@+id/contentLayout"
+			android:orientation="vertical"
+			android:gravity="center|top"
+			android:padding="10dip"
+			android:background="#C0C0C0"
+			android:layout_height="wrap_content">
+
+
+		<TableLayout
+			
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1"
+			>
+			<TableRow
+			android:layout_gravity="center_horizontal">
+				<Button
+					android:id="@+id/cryptanalysis_button_import"
+			        android:layout_width="75px"
+			        android:layout_height="80px"
+			        android:drawableTop="@drawable/import_picture"
+			        android:textColor="#383838"
+			        android:text="Import"
+			        android:padding="2sp"
+			        android:maxHeight="80px"
+			 		android:maxWidth="80px"
+			 		android:layout_gravity="center_vertical"
+	       		></Button>
+	       		<Button
+					android:id="@+id/cryptanalysis_button_copy"
+			        android:layout_width="75px"
+			        android:layout_height="80px"
+			        android:drawableTop="@drawable/copy"
+			        android:textColor="#383838"
+			        android:text="Copy\nClipboard"
+			        android:padding="2sp"
+			        android:drawablePadding="-18sp"
+			        android:maxHeight="80px"
+			 		android:maxWidth="80px"
+			 		android:layout_gravity="center_vertical"
+	       		></Button>
+	       		<Button
+					android:id="@+id/cryptanalysis_button_save"
+			        android:layout_width="75px"
+			        android:layout_height="80px"
+			        android:drawableTop="@drawable/save"
+			        android:textColor="#383838"
+			        android:text="Save"
+			        android:padding="2sp"
+			        android:maxHeight="80px"
+			 		android:maxWidth="80px"
+			 		android:layout_gravity="center_vertical"
+	       		></Button>
+				<Button
+					android:id="@+id/cryptanalysis_button_about"
+			        android:layout_width="75px"
+			        android:layout_height="80px"
+			        android:drawableTop="@drawable/about"
+			        android:textColor="#383838"
+			        android:text="About"
+			        android:padding="2sp"
+			        android:maxHeight="80px"
+			 		android:maxWidth="80px"
+			 		android:layout_gravity="center_vertical"
+	       		></Button>
+	   		</TableRow>
+		</TableLayout>
+		
+		
+		</LinearLayout>
+		
+		
+</SlidingDrawer>

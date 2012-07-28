@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cryptoid.main"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <uses-permission android:name="android.permission.SEND_SMS" />
+      <uses-permission android:name="android.permission.READ_SMS"/>
+      <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <application android:icon="@drawable/logo" android:label="@string/app_name">
+        <activity android:name=".EntryPoint"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="cryptoid.cryptanalysis.Cryptanalysis" />
+		<activity android:name=".ListAlgos" />
+		<activity android:name="cryptoid.activityalgorithm.MainMorse" />
+		<activity android:name="cryptoid.activityalgorithm.MainCaesar" />
+		<activity android:name="cryptoid.activityalgorithm.MainBase64" />
+		<activity android:name="cryptoid.activityalgorithm.MainVigenere" />
+		<activity android:name="cryptoid.activityalgorithm.MainAscii" />
+		<activity android:name="cryptoid.activityalgorithm.MainNihilist" />
+		<activity android:name="cryptoid.activityalgorithm.MainPolybius"/>
+		<activity android:name="cryptoid.activityalgorithm.BruteCaesar" />
+		<activity android:name="cryptoid.activityalgorithm.AnalyzeCaesar" />
+		<activity android:name="cryptoid.activityalgorithm.AnalyzeAscii"/>
+		<activity android:name="cryptoid.activityalgorithm.MainBase64" />
+    </application>
+
+
+</manifest> 

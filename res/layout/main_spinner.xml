@@ -1,0 +1,132 @@
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/RelativeLayoutMain"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		>
+		<ScrollView
+			android:id="@+id/widget29"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+		
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/LinearLayout02"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical">
+				
+
+
+
+
+
+<TextView
+	android:id="@+id/main_spinner_title"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textStyle="bold"
+	android:layout_centerHorizontal="true"
+	android:layout_margin="5px"
+/>
+<TextView
+	android:id="@+id/main_spinner_plain_label"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Plain text"
+	android:layout_below="@+id/main_spinner_title"
+	android:layout_alignParentLeft="true"
+/>
+
+<EditText
+	android:id="@+id/main_spinner_plain_text"
+	android:layout_width="fill_parent"
+	android:layout_height="120dip"
+	android:text=""
+	android:textSize="18sp"
+	android:layout_below="@+id/main_spinner_plain_label"
+	android:layout_alignParentLeft="true"
+/>
+<RadioGroup
+	android:id="@+id/main_spinner_choice"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_below="@+id/main_spinner_plain_text"
+	android:layout_alignParentLeft="true"
+>
+	<RadioButton
+		android:id="@+id/main_spinner_radio_cipher"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Cipher"
+		android:checked="true"
+	>
+	</RadioButton>
+	<RadioButton
+		android:id="@+id/main_spinner_radio_decipher"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Decipher"
+	>
+	</RadioButton>
+</RadioGroup>
+<Spinner
+	android:id="@+id/main_spinner_spinnerbutton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/main_spinner_choice"
+	android:layout_alignBottom="@+id/main_spinner_choice"
+	android:layout_marginLeft="10dip"
+>
+</Spinner>
+<TextView
+	android:id="@+id/main_spinner_cipher_label"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Ciphered text"
+	android:layout_below="@+id/main_spinner_choice"
+	android:layout_alignParentLeft="true"
+/>
+
+
+<EditText
+	android:id="@+id/main_spinner_cipher_text"
+	android:layout_width="fill_parent"
+	android:layout_height="120dip"
+	android:text=""
+	android:textSize="18sp"
+	android:layout_below="@+id/main_spinner_cipher_label"
+	android:layout_alignParentLeft="true"
+/>
+
+
+
+
+
+
+
+
+
+			</RelativeLayout>
+		</ScrollView>
+	
+	
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/LinearLayoutOfSliding"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:gravity="bottom"
+			android:layout_alignParentBottom="true"
+			>
+
+			<include layout="@layout/sliding_drawer_algo"/>
+			
+   		</LinearLayout>
+	
+ 	</RelativeLayout>

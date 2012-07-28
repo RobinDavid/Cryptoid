@@ -1,0 +1,144 @@
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/RelativeLayoutMain"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		>
+		<ScrollView
+			android:id="@+id/widget29"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+		
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/LinearLayout02"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical"
+				android:layout_marginBottom="20px">
+				
+
+
+
+
+
+<TextView
+	android:id="@+id/main_spinner_only_title"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textStyle="bold"
+	android:layout_centerHorizontal="true"
+	android:layout_margin="5px"
+/>
+<TextView
+	android:id="@+id/main_spinner_only_plain_label"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Plain text"
+	android:layout_below="@+id/main_spinner_only_title"
+	android:layout_alignParentLeft="true"
+/>
+
+<EditText
+	android:id="@+id/main_spinner_only_plain_text"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	android:layout_below="@+id/main_spinner_only_plain_label"
+	android:layout_alignParentLeft="true"
+/>
+<Spinner
+	android:id="@+id/main_spinner_only_spinnerbutton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/main_spinner_only_plain_text"
+>
+</Spinner>
+<Button
+	android:id="@+id/main_spinner_only_button_start"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="START"
+	android:layout_toRightOf="@+id/main_spinner_only_spinnerbutton"
+	android:layout_alignTop="@+id/main_spinner_only_spinnerbutton"/>
+<TextView
+	android:id="@+id/main_spinner_only_hex_label"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="\nHexadecimal text"
+	android:layout_below="@+id/main_spinner_only_spinnerbutton"
+	android:layout_alignParentLeft="true"
+/>
+<EditText
+	android:id="@+id/main_spinner_only_hex_text"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	android:layout_below="@+id/main_spinner_only_hex_label"
+	android:layout_alignParentLeft="true"
+/>
+<TextView
+	android:id="@+id/main_spinner_only_dec_label"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Decimal text"
+	android:layout_below="@+id/main_spinner_only_hex_text"
+	android:layout_alignParentLeft="true"
+/>
+<EditText
+	android:id="@+id/main_spinner_only_dec_text"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	android:layout_below="@+id/main_spinner_only_dec_label"
+	android:layout_alignParentLeft="true"
+/>
+<TextView
+	android:id="@+id/main_spinner_only_bin_label"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Binary text"
+	android:layout_below="@+id/main_spinner_only_dec_text"
+	android:layout_alignParentLeft="true"
+/>
+<EditText
+	android:id="@+id/main_spinner_only_bin_text"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	android:layout_below="@+id/main_spinner_only_bin_label"
+	android:layout_alignParentLeft="true"
+/>
+
+
+
+
+
+
+
+			</RelativeLayout>
+		</ScrollView>
+	
+	
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/LinearLayoutOfSliding"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:gravity="bottom"
+			android:layout_alignParentBottom="true"
+			>
+
+			<include layout="@layout/sliding_drawer_algo"/>
+			
+   		</LinearLayout>
+	
+ 	</RelativeLayout>
