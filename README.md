@@ -1,12 +1,16 @@
 Cryptoid
 ========
 
-Cryptoid  the first Android application I have developed. The purpose of this application is to cipher and decipher messages with basic algorithms like Caesar, Vigenere..
-An article and screenshots are available here: http://robindavid.comli.com/cryptoid/
+![Cryptoid logo](https://raw.github.com/RobinDavid/Cryptoid/master/logo.bmp)
 
-Note
+Cryptoid is a toy app to apply weak ciphers on plain text. (Mostly developped to learn how to develop an app).
+
+Few of the algorithms availables are:
+
+* Caesar
+* Vigenere
+
+Image
 ----
 
-* There is few minimal bugs in the application and some algorithms are not implemented
-* I provide sources as Eclipse project to easily import it
-* The application itself is available in the bin directory
+![Cryptoid bruteforce activity](https://raw.github.com/RobinDavid/Cryptoid/master/brute.bmp)
